@@ -3,9 +3,9 @@
   "component": {
     "group": "org.hibernate.reactive",
     "module": "hibernate-reactive-core",
-    "version": "2.0.2.Final",
+    "version": "2.0.2.unity-SNAPSHOT",
     "attributes": {
-      "org.gradle.status": "release"
+      "org.gradle.status": "integration"
     }
   },
   "createdBy": {
@@ -41,13 +41,13 @@
       ],
       "files": [
         {
-          "name": "hibernate-reactive-core-2.0.2.Final.jar",
-          "url": "hibernate-reactive-core-2.0.2.Final.jar",
-          "size": 1212224,
-          "sha512": "64a947f13f53c0fafcc0ef5b9ca76a9c26660f87152a4cfe9cbc0550c2ee6b0956d8aa22b24f243d9fbaec29501d7f9569f55b3e63eb6bfbaa9ffb281714ea54",
-          "sha256": "a75270c5701d9c3e21d46be73411303a5254e078357bc19906d235ec69053c6e",
-          "sha1": "77a458de31ac7a2493e26a3bdb8d3e8de4b56db7",
-          "md5": "c0d696c4e38a2fead0bebf66d9773dc0"
+          "name": "hibernate-reactive-core-2.0.2.unity-SNAPSHOT.jar",
+          "url": "hibernate-reactive-core-2.0.2.unity-SNAPSHOT.jar",
+          "size": 1212275,
+          "sha512": "633c44fb324214ece9c93a393a077f2c5b6f407a185e6fb2d5bd76cc949909035e3e82a79a911678a343c1b04425d4e38a421eec489ab59177bbcdb08eb18fff",
+          "sha256": "8047b5a3eda13363dee94ef51755a3a01f1163afb263c1ce037888fe6bfa462b",
+          "sha1": "7e0451599c0efa472170ec006ee6eca31d7c4c54",
+          "md5": "d433fd7c9da56c30ef3aae18989a4f50"
         }
       ]
     },
@@ -92,13 +92,13 @@
       ],
       "files": [
         {
-          "name": "hibernate-reactive-core-2.0.2.Final.jar",
-          "url": "hibernate-reactive-core-2.0.2.Final.jar",
-          "size": 1212224,
-          "sha512": "64a947f13f53c0fafcc0ef5b9ca76a9c26660f87152a4cfe9cbc0550c2ee6b0956d8aa22b24f243d9fbaec29501d7f9569f55b3e63eb6bfbaa9ffb281714ea54",
-          "sha256": "a75270c5701d9c3e21d46be73411303a5254e078357bc19906d235ec69053c6e",
-          "sha1": "77a458de31ac7a2493e26a3bdb8d3e8de4b56db7",
-          "md5": "c0d696c4e38a2fead0bebf66d9773dc0"
+          "name": "hibernate-reactive-core-2.0.2.unity-SNAPSHOT.jar",
+          "url": "hibernate-reactive-core-2.0.2.unity-SNAPSHOT.jar",
+          "size": 1212275,
+          "sha512": "633c44fb324214ece9c93a393a077f2c5b6f407a185e6fb2d5bd76cc949909035e3e82a79a911678a343c1b04425d4e38a421eec489ab59177bbcdb08eb18fff",
+          "sha256": "8047b5a3eda13363dee94ef51755a3a01f1163afb263c1ce037888fe6bfa462b",
+          "sha1": "7e0451599c0efa472170ec006ee6eca31d7c4c54",
+          "md5": "d433fd7c9da56c30ef3aae18989a4f50"
         }
       ]
     }
