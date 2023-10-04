@@ -35,6 +35,8 @@ public class MySqlReactiveInformationExtractorImpl extends AbstractReactiveInfor
 	@Override
 	protected int dataTypeCode(String typeName) {
 		switch ( typeName ) {
+			case "varchar":
+				return Types.VARCHAR;
 			case "int":
 				return Types.INTEGER;
 			case "enum":
