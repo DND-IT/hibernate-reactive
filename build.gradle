@@ -270,7 +270,7 @@ class Version {
 
     private static final Pattern RELEASE_VERSION_PATTERN = ~/^(\d+)\.(\d+)\.(\d+)\.((?:Alpha\d+|Beta\d+|CR\d+)|Final)$/
 
-    private static final Pattern DEVELOPMENT_VERSION_PATTERN = ~/^(\d+)\.(\d+)\.(\d+)-SNAPSHOT$/
+    private static final Pattern DEVELOPMENT_VERSION_PATTERN = ~/^(\d+)\.(\d+)\.(\d+)-(unity-)?SNAPSHOT$/
 
     static Version parseReleaseVersion(String versionString) {
         def matcher = (versionString =~ RELEASE_VERSION_PATTERN)
