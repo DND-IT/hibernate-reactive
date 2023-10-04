@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.hibernate.reactive",
+    "module": "hibernate-reactive-core",
+    "version": "2.0.2.Final",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.hibernate.orm",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "6.2.6.Final"
+          }
+        },
+        {
+          "group": "io.smallrye.reactive",
+          "module": "mutiny",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hibernate-reactive-core-2.0.2.Final.jar",
+          "url": "hibernate-reactive-core-2.0.2.Final.jar",
+          "size": 1212224,
+          "sha512": "64a947f13f53c0fafcc0ef5b9ca76a9c26660f87152a4cfe9cbc0550c2ee6b0956d8aa22b24f243d9fbaec29501d7f9569f55b3e63eb6bfbaa9ffb281714ea54",
+          "sha256": "a75270c5701d9c3e21d46be73411303a5254e078357bc19906d235ec69053c6e",
+          "sha1": "77a458de31ac7a2493e26a3bdb8d3e8de4b56db7",
+          "md5": "c0d696c4e38a2fead0bebf66d9773dc0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jboss.logging",
+          "module": "jboss-logging",
+          "version": {
+            "requires": "3.5.0.Final"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-sql-client",
+          "version": {
+            "requires": "4.4.4"
+          }
+        },
+        {
+          "group": "org.hibernate.orm",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "6.2.6.Final"
+          }
+        },
+        {
+          "group": "io.smallrye.reactive",
+          "module": "mutiny",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hibernate-reactive-core-2.0.2.Final.jar",
+          "url": "hibernate-reactive-core-2.0.2.Final.jar",
+          "size": 1212224,
+          "sha512": "64a947f13f53c0fafcc0ef5b9ca76a9c26660f87152a4cfe9cbc0550c2ee6b0956d8aa22b24f243d9fbaec29501d7f9569f55b3e63eb6bfbaa9ffb281714ea54",
+          "sha256": "a75270c5701d9c3e21d46be73411303a5254e078357bc19906d235ec69053c6e",
+          "sha1": "77a458de31ac7a2493e26a3bdb8d3e8de4b56db7",
+          "md5": "c0d696c4e38a2fead0bebf66d9773dc0"
+        }
+      ]
+    }
+  ]
+}
