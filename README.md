@@ -19,19 +19,25 @@ The forked hibernate-reactive artifacts are published by using [Github Pages][3]
     git clone git@github.com:DND-IT/hibernate-reactive.git
     ```
 
-2. Build a local directory structure for the maven repository that will be uploaded to Github Pages.
+2. compile the project
+
+   ```shell
+   ./gradlew compileJava
+   ```
+
+3. Build a local directory structure for the maven repository that will be uploaded to Github Pages.
 
     ```shell
     ./gradlew -Dmaven.repo.local=`pwd`/build/mvn-repo publishToMavenLocal
     ```
 
-3. Upload the maven repository to Github Pages.
+4. Upload the maven repository to Github Pages.
 
     ```shell
     ./gradlew gitPublishPush
     ```
 
-4. Configure the dependent projects/modules:
+5. Configure the dependent projects/modules:
 
     ```xml
     <repository>
