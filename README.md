@@ -1,4 +1,4 @@
-# Cukes
+# Hibernate Reactive
 
 This repository is a fork of https://github.com/hibernate/hibernate-reactive.
 
